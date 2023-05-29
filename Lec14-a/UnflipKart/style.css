@@ -1,0 +1,52 @@
+.navbar-brand{
+    width: 10vw;
+    border-radius: 25% 0%;
+}
+main img{
+    height: 60vh;
+    object-fit: contain;
+}
+
+main h5{
+    font-family:monospace;
+    font-weight: 300;
+    width: fit-content;
+    align-self: center;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.row .col-x1-2{
+    display: flex;  
+    justify-content: space-evenly;
+    align-content: space-around;
+    row-gap: 20px;
+    
+}
+.card{
+    height: 500px;
+    object-fit: fill;
+    
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+hr{
+    clear: both;
+    visibility: hidden;
+}
+.card-img-top:hover{
+    transform: scale(1.05,1.05);
+    transition-duration: 800ms;
+}
+.card-img-top{
+    position: relative;
+    top:12px;
+    width: 15rem;
+    height: 15rem;
+    margin: 0 auto;
+    
+}

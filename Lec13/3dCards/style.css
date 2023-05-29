@@ -1,0 +1,33 @@
+div{
+    width: 350px;
+    height: 250px;
+    border: 2px solid black;
+}
+.side-a{
+    background-color: aquamarine;
+    z-index: 10;
+    backface-visibility: hidden;
+}
+.side-b{
+    background-color: royalblue;
+    transform:rotateY(180deg);
+}
+body{
+    perspective: 900px;
+}
+.wrapper{
+    transition-duration: 2s;
+    position: relative;
+    transform-style: preserve-3d;
+    margin: 30px auto;
+}
+.side-a, .side-b{
+    position: absolute;
+}
+.wrapper:hover{
+    transform:rotateY(180deg);
+}
+img{
+    width: inherit;
+    height: inherit;
+}

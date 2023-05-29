@@ -1,0 +1,26 @@
+/* a[href="http://google.com"]{
+    color: green;
+} */
+
+/* a[href^="http"]{
+    color: crimson;
+} */
+/* a[href$=".org"]{
+    font-size: 50px;
+    color: aqua;
+    border: 2px solid black;
+    text-decoration: line-through;
+} */
+
+
+/* a[href*="//"]{
+    font-size: 20px;
+    font-family: monospace;
+    color: lightcoral;
+    text-decoration: line-through;
+} */
+
+a[href*="singhania"]{
+    font-size: 50px;
+    color:blueviolet;
+}

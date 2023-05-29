@@ -1,0 +1,33 @@
+/* Child sibling */
+/* section>div>p{
+    color: blue;
+}
+section>section>div>p{
+    color: red;
+}*/
+
+/*
+ section>section>p{/*won't work becaue it's child and  not decendent 
+    color: aqua;
+} */
+
+/* Adjacent Sibling */
+/* article+section{
+    background-color: aqua;
+}
+
+section+article{
+    background-color: crimson;
+} */
+/* article+section{
+    background-color: aqua;
+} */
+
+/* section+article{
+    background-color: crimson;
+} */
+
+/* general sibling */
+section ~ article{
+    background-color: greenyellow;
+}

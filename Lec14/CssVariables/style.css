@@ -1,0 +1,7 @@
+:root{
+    --bg-color:#23FFAE;
+}
+
+article,h2,h3{
+    background-color: var(--bg-color);
+}

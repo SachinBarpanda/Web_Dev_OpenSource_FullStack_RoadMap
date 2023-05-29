@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+    font-size: 50px;
+}
+.parent{
+    width: 90vw;
+    height: 90vh;
+    background-color: bisque;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: 200px 300px ;
+    grid-template-rows : 100px 200px 150px;
+    /* grid-auto-rows: 50px; */
+    /* grid-auto-flow: row; */
+    grid-auto-flow: column;
+    /* grid-auto-columns: 50px; */
+}
+
+.child{
+    background-color: greenyellow;
+    border: 1px solid black;
+} 
+/* #sam{
+    background-color: blanchedalmond;
+    grid-column:span 2;
+}
+#samarth{
+    background-color: aquamarine;
+    grid-row: span 2;
+} */
+/* 
+#sam{
+    background-color: blanchedalmond;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+#samarth{
+    background-color: aquamarine;
+    grid-row-start:  2;
+    grid-row-end: 4;
+} */
+#sam{
+    background-color: blanchedalmond;
+    grid-column: 3 / span 2;
+}
+#samarth{
+    background-color: aquamarine;
+    grid-row: 2 / span 4 ;
+}

@@ -1,0 +1,39 @@
+.box{
+    width: 100px;
+    height: 100px;
+    border-top: 10px solid rgb(244, 44, 44);
+    border-bottom: 10px solid rgb(239, 246, 42);
+    border-right: 10px solid rgb(33, 239, 40);
+    border-left: 10px solid rgb(62, 53, 224);
+    border-radius: 50%;
+    margin: 30px auto;
+}
+.box:hover{
+    animation-name:loader,backgroundChanger;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes loader {
+    0%{
+        transform:translateY(0px) rotate(0deg);
+    }
+    50%{
+        transform: translateY(600px) rotate(360deg);
+    }
+    100%{
+        transform:translateY(0px) rotate(0deg);
+    }
+}
+
+@keyframes backgroundChanger {
+    0%{
+        background-color: rebeccapurple;
+    }
+    50%{
+        background-color: ghostwhite;
+    }
+    100%{
+        background-color: salmon;
+    }
+}

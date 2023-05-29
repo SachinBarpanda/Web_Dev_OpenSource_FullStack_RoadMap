@@ -1,0 +1,11 @@
+section{
+    width: 70vh;
+    border: 5px solid lightgray;
+}
+img{
+    width: 250px;
+    float:left;
+}
+article{
+    margin: 15px;
+}

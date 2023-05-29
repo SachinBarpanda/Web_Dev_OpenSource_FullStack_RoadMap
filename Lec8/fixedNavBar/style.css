@@ -1,0 +1,18 @@
+nav{
+    background-color: aquamarine;
+    position: fixed;
+    display: inline-block;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+
+nav> ul{
+    display: inline-block;
+}
+section{
+    position: sticky;
+    font-size: 120px;
+}
+

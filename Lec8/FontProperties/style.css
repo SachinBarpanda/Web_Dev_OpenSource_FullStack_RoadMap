@@ -1,0 +1,23 @@
+div{
+    font-family: serif;
+    font-size: 50px;
+    font-weight:normal;
+    font-style: italic;
+    line-height: 3.5rem;
+    letter-spacing: 0.5rem;
+}
+
+h1{
+    /* width: 20%;
+    margin: 20px auto; */
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 5px 5px 15px red,
+    15px 5px 1px rgb(0, 255, 47),
+    -25px 5px 5px rgb(111, 0, 255),
+    5px -5px 15px rgb(246, 255, 0);
+
+    border: 2px solid burlywood;
+    box-shadow: 4px 4px 18px teal;
+}
+

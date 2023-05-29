@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+    background-color: aqua;
+    padding: 20px;
+    margin: 1%;
+}
+nav,ul{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    list-style: none;
+}
+
+li{
+    margin-left: 20px;
+}
+ul:nth-of-type(3){
+    justify-content: flex-end;
+}
+
+@media screen and (max-width:767px){
+    nav,ul{
+        flex-flow: column;
+        align-items: center;
+    }
+}
+

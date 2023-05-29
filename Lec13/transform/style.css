@@ -1,0 +1,33 @@
+h1{
+    font-size: 40px;
+    color: rgb(45, 27, 244);
+    width: fit-content;
+    text-shadow: 0 1px 0 #c8c6e5,
+    0 2px 0 #cdcaff,
+    0 3px 0 #c7c7f7,
+    0 4px 0 #cec7fa,
+    0 5px 0 #bcb5f7,
+    0 6px 1px rgba(242, 205, 205, 0.1),
+    0 0 5px rgba(0, 0, 0, 0.1),
+    0 1px 3px rgba(0, 0, 0, 0.3),
+    0 3px 5px rgba(237, 51, 51, 0.2),
+    0 5px 10px rgba(0, 0, 0, 0.25),
+    0 10px 10px rgba(0, 0, 0, 0.2),
+    0 20px 20px rgba(0, 0, 0, 0.1);
+}
+h1:hover{
+    transform: translateX(400px);
+    transform: translateY(400px);
+    /* transform: translateZ(400px); */
+    /* transform:rotateX(180deg); */
+    /* transform : rotateY(180deg);
+    transform : rotateZ(180deg);
+    transform:scaleX(1.5);
+    transform:scaleY(1.5);
+    transform:scale(1.2,1.2); */
+    transform: skewX(20deg);
+    transform: skew(20deg , 15deg);
+    /* transform: skewY(20deg); */
+
+    transition: 1s;
+}

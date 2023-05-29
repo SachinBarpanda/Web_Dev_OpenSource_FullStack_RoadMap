@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+span{
+    color: white;
+    margin-right: 10px;
+}
+#plus{
+    color:coral ;
+    cursor: pointer;
+    float: right;
+    margin-right: 10px;
+}
+
+#container{
+    border: 0.5px solid  darkblue;
+    width: 360px;
+    margin: 50px auto;
+    padding: 5px;
+    box-shadow: 5px 5px 5px  rgba(0, 0, 255, .5);
+
+}
+input{
+    font-size: medium;
+    width: inherit;
+    margin-top: 10px;
+    padding: 10px 0;
+    border: 1px solid lightsalmon;
+}
+input:focus{
+    outline: none;
+    border-style: none;
+    border: 1px solid lightsalmon;
+}
+
+ul li{
+    list-style: none;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: lightsalmon;
+}
+
+.complete{
+    text-decoration: line-through ;
+    color: bisque;
+}

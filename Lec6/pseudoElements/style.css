@@ -1,0 +1,45 @@
+div::first-letter{
+    font-size: 50px;
+    color: orange;
+}
+
+p::first-line{
+    font-family: 'Courier New', Courier, monospace;
+}
+/* 
+a[href="http://google.com"]::first-letter{
+    color:red;
+    font-size: 100px;
+} */
+
+/* a[href="http://google.com"]::after{
+    content: "Hi I am your pesudo element";
+}
+
+
+a[href="http://google.com"]::before{
+    content: "Hi I am your pesudo element before";
+} */
+
+/* a[href="http://google.com"]::before{
+    content: "\1F4F1";
+    font-size: 50px;
+} */
+a[href="http://google.com"]::before{
+    content: '\1F4F1';
+    font-size: 50px;
+}
+
+a[href="http://google.com"]::after{
+    content: '\1F32E';
+    font-size: 50px;
+}
+
+/* a{
+    text-decoration: none;
+} */
+
+
+a[href="http://google.com"]{
+    text-decoration: none;
+}

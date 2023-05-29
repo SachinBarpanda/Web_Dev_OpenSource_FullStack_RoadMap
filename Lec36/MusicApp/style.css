@@ -1,0 +1,42 @@
+*{
+    background-color: rgb(0, 0, 0);
+    color: white;
+
+}
+#container{
+    margin: auto;
+    border: 1px solid wheat;
+    width: 240px;
+    height : 360px;
+    position:relative;
+    
+}
+
+h1{
+    text-align: center;
+}
+#play-section{
+    width: inherit;
+    position: absolute;
+    bottom:20px;
+}
+#progress{
+    width: 13rem;
+    margin: 1rem ;
+}
+
+button{
+    border: none;
+    background-color: aliceblue;
+    width: 50px;
+    height: 50px;
+}
+.player-control{
+   width: fit-content;
+    margin: 0 auto; 
+}
+.fa{
+    color: black;
+    font-size: 1.5rem;
+    background-color: white;
+}
