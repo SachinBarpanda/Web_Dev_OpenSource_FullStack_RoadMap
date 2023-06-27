@@ -1,4 +1,6 @@
 const mongoose = require("mongoose");
+const Review = require("./Review");
+
 const productSchema = new mongoose.Schema({
     name:{
         type :String,
@@ -21,10 +23,19 @@ const productSchema = new mongoose.Schema({
     },
     reviews:[
         {
-            type:mongoose.Schema.ObjectId,
+            type:mongoose.Schema.Types.ObjectId,
             ref: 'Review'
         }
     ]
+})
+
+// middleware which runs in behind and it have pre and post which runs 
+// before and after the model that is a js class/
+
+productSchema.post('findOneAndDelete',async function(product){
+    if(product.reviews.length > 0){
+        await Review.deleteMany({_id:{$in:product.reviews}});
+    }
 })
 
 let Product = mongoose.model('Product', productSchema);

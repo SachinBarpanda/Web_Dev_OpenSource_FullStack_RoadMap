@@ -8,7 +8,10 @@ const reviewSchema = new mongoose.Schema({
     comment:{
         type:String,
         trim:true
-    }
+    }    
+},
+{
+    timestamps:true
 })
 
 let Review = mongoose.model('Review',reviewSchema);

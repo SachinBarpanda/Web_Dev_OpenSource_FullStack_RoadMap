@@ -4,6 +4,7 @@ const path = require('path')
 const mongoose = require('mongoose');
 const seedDB = require('./seed');
 const productRoutes = require('./routes/product')
+const reviewRoutes = require('./routes/review')
 const ejsMate = require('ejs-mate');
 const methodOverride = require('method-override')
 
@@ -30,6 +31,8 @@ app.use(methodOverride('_method'));
 // seedDB();
 
 app.use(productRoutes);
+app.use(reviewRoutes);
+
 
 app.listen(8080,()=>{
     console.log("server connected at port 8080")
