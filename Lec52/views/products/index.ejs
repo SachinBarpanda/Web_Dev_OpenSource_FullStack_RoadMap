@@ -1,5 +1,7 @@
+
 <% layout('layouts/boilerplate') %>
 <%-include('../partials/navbar') %>
+<%-include('../partials/flash') %>
     <div class="row">
         <% for(let item of products){ %>
             <div class="col-lg-4 col-md-6">
@@ -12,9 +14,13 @@
                         <h5 class="card-title"><%=item.price%></h5>
                         <p class="card-text"><%=item.description%></p>
                         <a href="/products/<%=item._id%>" class="btn btn-primary">View</a>
+                        <% if(currentUser && currentUser.role === 'seller'){%>
+
                         <form class="d-inline-block" action="/products/<%=item._id%>?_method=DELETE" method="POST">
                             <button class="btn btn-sm btn-danger">Delete</button>
                         </form>
+
+                        <% } %>
                     </div>
                 </div>
             </div>

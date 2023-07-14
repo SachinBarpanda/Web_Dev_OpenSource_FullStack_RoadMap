@@ -3,18 +3,18 @@ const Review = require("./Review");
 
 const productSchema = new mongoose.Schema({
     name:{
-        type :String,
+        type:String,
         trim : true,
         required : true
     },
-    img : {
-        type : String,
+    img: {
+        type:String,
         trim:true,
         // default:,
     },
-    price :{
+    price:{
         type:Number,
-        min:0,
+        // min:0,
         required:true
     } ,
     description: {
@@ -26,7 +26,11 @@ const productSchema = new mongoose.Schema({
             type:mongoose.Schema.Types.ObjectId,
             ref: 'Review'
         }
-    ]
+    ],
+    author:{
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'User'
+    }
 })
 
 // middleware which runs in behind and it have pre and post which runs 
