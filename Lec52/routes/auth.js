@@ -43,7 +43,6 @@ router.get('/login', (req,res)=>{
 router.post('/login',
 passport.authenticate('local', { failureRedirect: '/login', failureMessage: true }),
 (req,res)=>{
-    console.log(req.user);
     req.flash('success','Welcome back');
     res.redirect('/products');
 

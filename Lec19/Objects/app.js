@@ -10,4 +10,4 @@ console.log(person.name);
 console.log(person.age);
 console.log(person.isMale);
 console.log(person.favColor);
-console.log(person['age']);
+console.log(person["age"]);

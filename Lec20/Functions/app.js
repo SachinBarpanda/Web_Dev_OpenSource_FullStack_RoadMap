@@ -1,8 +1,8 @@
-function sum(){
-    let num1 = 10;
-    let num2 = 30;
-    console.log(num1+num2);
-}
+// function sum(){
+//     let num1 = 10;
+//     let num2 = 30;
+//     console.log(num1+num2);
+// }
 // sum();
 
 // function triple(num3){
@@ -10,7 +10,7 @@ function sum(){
 //     let num2 = 20;
 //     console.log(num1+num2+num3);
 // }
-// triple(30);
+// triple();
 
 // function sum2(){
 //     let num1 = 10;

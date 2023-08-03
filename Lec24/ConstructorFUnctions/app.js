@@ -1,6 +1,4 @@
-// function fun(){
-
-// }
+// function fun(){}
 // let naam = fun();
 // console.log(naam);
 

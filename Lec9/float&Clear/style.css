@@ -10,5 +10,5 @@
 p:nth-of-type(2), p:nth-of-type(3){
     clear: left;
     /* clear: right; */
-    clear:both;
+    /* clear:both; */
 } 

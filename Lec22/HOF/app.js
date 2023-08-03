@@ -16,7 +16,6 @@
 //     }
 //     return b();
 // }
-
 // let temp = a();
 // console.log(temp);
 
@@ -59,7 +58,7 @@
 
 // console.log(getBoolean(arr));
 // console.log(getNumber(arr));
-// console.log( getString(arr));
+// console.log(getString(arr));
 
 
 let arr = ['sam','samarth',10,20,true,false];

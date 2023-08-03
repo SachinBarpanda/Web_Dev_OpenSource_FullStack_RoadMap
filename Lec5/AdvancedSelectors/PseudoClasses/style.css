@@ -49,6 +49,6 @@ li:nth-last-child(3){
     color:burlywood;
 }
 
-li:nth-of-type(3n+6){
+li:nth-of-type(5n+6){
     background-color: salmon;
 }

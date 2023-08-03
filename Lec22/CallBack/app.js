@@ -13,7 +13,7 @@ function getNumber(item){
 
 
 function check(item , fn){
-    return fn(item);
+    return fn(item);//callback function
 }
 
 console.log(check(true, getBoolean));//true

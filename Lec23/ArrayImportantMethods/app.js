@@ -1,7 +1,7 @@
 // let students = ['sachin', 'akshay','manish','sam','hardik'];
 
-// students.forEach(function(sa, manish){
-//     console.log(`${sa}->${manish}`);
+// students.forEach(function(item, index){
+//     console.log(`${index}->${item}`);
 // });
 
 
@@ -15,7 +15,7 @@
 // let newArr1 = marks.map(function(item , index){
 //     return [item,index];
 // })
-
+// console.log(newArr);
 // console.log(marks);
 // console.log(newArr1);
 
@@ -33,7 +33,7 @@
 
 //mysterious
 // let marks1 = [1,2,3,4,5,6,7,8,9,10];
-// let filteredArray1  = marks1.filter(function(item){
+// let filteredArray1  = marks1.filter(function(item,index){
 //     if(item>=5){
 //         return [true,index];//still same output
 //     }
@@ -46,8 +46,9 @@
 
 //sort()
 let arr = [12,2,34,3,88,90,16,36,12];
-// let newArr = arr.sort();
-let newArr = arr.sort(function(o1 , o2){
-    return o1-o2;
-})
+let newArr = arr.sort();//dictionary sort(lexicographically)
+// let newArr = arr.sort(function(){
+//     // return o1-o2;
+//     return o2-o1;
+// })
 console.log(newArr);

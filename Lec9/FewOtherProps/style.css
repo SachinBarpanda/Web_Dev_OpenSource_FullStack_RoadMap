@@ -1,12 +1,12 @@
-/* p{
+p{
     white-space: nowrap;
     overflow: hidden; 
-    overflow: scroll;
+    /* overflow: scroll; */
+    text-overflow: ellipsis;
     text-overflow: clip;
-    text-overflow: clip;
-} */
+}
 
-p{
+/* p{
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -14,4 +14,4 @@ p{
 p:hover{
     overflow : scroll;
     text-overflow: clip;
-}
+} */

@@ -1,0 +1,50 @@
+.card-img-top{
+    height: 30vh;
+    object-fit: cover;
+}
+
+.row{
+    line-height: 0.8rem;
+}
+
+
+.navbar-brand{
+    width: 12vw;
+}
+.nav-link{
+    width: fit-content;
+    padding: 0.25rem 0;
+    font-size: 1.1rem;
+    color: rgba(9, 6, 18, 0.5);
+    margin-left: 1rem;
+    border-bottom: 0.1rem solid transparent;
+}
+.nav-link:hover{
+    transition: 0.5s;
+    color: rgba(8, 9, 9, 0.5);
+    border-bottom-color: rgba(19, 19, 20);
+}
+
+.username{
+    border-bottom-color: rgba(19, 19, 20,0.0);
+}
+.username:hover{
+    border-bottom-color: rgba(19, 19, 20,0.0);
+}
+.cart:hover{
+    transition: 0.5s;
+    border-color: rgba(19, 19, 20);
+    
+}
+.cart{
+    padding: 8px;
+    color: rgba(8, 9, 9, 0.5);
+    border: 0.1rem solid ;
+    border-color: rgba(19, 19, 20,0.0);   
+}
+
+.like-btn{
+    position:relative;
+    float: right;
+    bottom:60px;
+}

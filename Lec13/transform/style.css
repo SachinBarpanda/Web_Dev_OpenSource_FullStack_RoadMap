@@ -16,16 +16,16 @@ h1{
     0 20px 20px rgba(0, 0, 0, 0.1);
 }
 h1:hover{
-    transform: translateX(400px);
+    /* transform: translateX(400px);
     transform: translateY(400px);
-    /* transform: translateZ(400px); */
-    /* transform:rotateX(180deg); */
-    /* transform : rotateY(180deg);
-    transform : rotateZ(180deg);
-    transform:scaleX(1.5);
-    transform:scaleY(1.5);
-    transform:scale(1.2,1.2); */
-    transform: skewX(20deg);
+    transform: translateZ(400px);
+    transform: rotateX(180deg);
+    transform : rotateY(180deg);
+    transform : rotateZ(180deg);  */
+    /* transform:scaleX(1.5); */
+    /* transform:scaleY(1.5); */
+    /* transform:scale(1.2,1.2);  */
+    /* transform: skewX(20deg); */
     transform: skew(20deg , 15deg);
     /* transform: skewY(20deg); */
 

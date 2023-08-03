@@ -18,7 +18,7 @@
 
 
 
-     flex-wrap: wrap;
+     /* flex-wrap: wrap; */
      /* flex-wrap: wrap-reverse; */
     /* align-items: flex-start; */
     /* align-items: flex-end; */
@@ -58,7 +58,7 @@ div:nth-of-type(2){
     flex-grow: 2;
 }  */
 
-div:nth-of-type(2){
+/* div:nth-of-type(2){
     align-self: flex-end;
     align-self: center;
-}
+} */

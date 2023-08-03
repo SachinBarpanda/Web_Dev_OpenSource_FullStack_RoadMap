@@ -11,6 +11,7 @@
 .box:hover{
     animation-name:loader,backgroundChanger;
     animation-duration: 2s;
+    animation-direction: alternate;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }

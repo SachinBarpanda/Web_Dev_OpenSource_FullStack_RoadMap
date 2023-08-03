@@ -4,9 +4,9 @@
     border: 3px solid black;
     background-image: url('https://images.unsplash.com/photo-1677350783994-4188589a9baa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0OXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60');
     background-repeat: no-repeat;
-    background-size: 60% 70%;
-    background-size: contain;
-    /* background-size: cover ; */
+    /* background-size: 60% 70%; */
+    /* background-size: contain; */
+    background-size: cover ;
     background-position: center;
     /* opacity: 0.7; */
     

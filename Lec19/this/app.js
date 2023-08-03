@@ -5,7 +5,7 @@ let obj = {
     web : 100 ,
     maths : 90 ,
     total : function(){
-        return this.eve + this.cn + this.web + this.maths;
+        return this.evs + this.cn + this.web + this.maths;
     },
     bulao : function(){
         return `${this.name} ko bulao`;

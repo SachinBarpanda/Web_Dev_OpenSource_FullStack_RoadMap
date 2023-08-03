@@ -1,0 +1,38 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://plus.unsplash.com/premium_photo-1677852356095-51e64184cf25?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80");
+    background-repeat: no-repeat;
+    background-position:top;
+    background-size: cover;
+    
+}
+.navbar-brand{
+    width: 12vw;
+}
+
+.nav-link{
+    width: fit-content;
+    padding: 0.25rem 0;
+    font-size: 1.1rem;
+    color: rgba(9, 6, 18, 0.5);
+    margin-left: 1rem;
+    border-bottom: 0.1rem solid transparent;
+}
+.nav-link:hover{
+    transition: 0.5s;
+    color: rgba(8, 9, 9, 0.5);
+    border-bottom-color: rgba(19, 19, 20);
+}
+main{
+    width: fit-content;
+    margin: auto;
+    text-align: center;   
+}
+.lead{
+    
+    line-height: 2rem;
+    font-weight: 700;
+}
+

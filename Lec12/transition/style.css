@@ -5,8 +5,8 @@ div{
     border: 2px solid brown;
     /* transition: 2s; */
     transition-duration: 2s;
-    /* transition-delay: 2s; */
-    transition-property: "border-radius";
+    transition-delay: 2s;
+    /* transition-property: "border-radius"; */
     
 }
 div:hover{

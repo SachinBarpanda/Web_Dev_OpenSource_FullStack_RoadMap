@@ -20,18 +20,18 @@
             <img class="card-img-top" src="<%=foundProduct.img%>" alt="Card image cap">
 
             <div class="card-body">
-                <h5 class="card-title"><%=foundProduct.name%></h5>
-                <h5 class="card-title"><%=foundProduct.price%></h5>
-                <p class="card-text"><%=foundProduct.description%></p>
+                <h5 class="card-title medium"><%=foundProduct.name%></h5>
+                <h5 class="card-title small"><%=foundProduct.price%></h5>
+                <p class="card-text small"><%=foundProduct.description%></p>
                 
                 <form method="POST" action="/user/<%=foundProduct._id%>/add" class="d-inline-block">
-                    <button class="btn btn-info">Add To Cart</button>
+                    <button class="btn btn-sm btn-info">Add To Cart</button>
                 </form>
                 
                 
-                <a href="#" class="btn btn-primary">Buy Now</a>
+                <a href="#" class="btn btn-sm btn-primary">Buy Now</a>
                 <% if(currentUser && currentUser.role === 'seller'){ %>
-                    <a href="/products/<%=foundProduct._id%>/edit" class="btn btn-primary">Edit</a>
+                    <a href="/products/<%=foundProduct._id%>/edit" class="btn btn-sm btn-primary">Edit</a>
                 <% } %>
             
             </div>
@@ -39,7 +39,7 @@
         </div>
         </div>  
         <div class="col-lg-4">
-            <h1 class="display-5">Leave a Review</h1>
+            <h1 class="display-6">Leave a Review</h1>
             <form action="/products/<%=foundProduct._id%>/review" method="POST">
                 <div >
                     <fieldset class="starability-basic">
@@ -83,7 +83,7 @@
                           <blockquote class="blockquote mb-0">
                             <p><%=review.comment%></p>
                             <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
-                            <button href="#" class="btn btn-primary">Delete</button>
+                            <button href="#" class="btn btn-sm btn-primary">Delete</button>
                           </blockquote>
                         </div>
 

@@ -5,12 +5,15 @@
     border: 2px solid black;
     margin: 30px auto;
     display: grid;
-    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-columns: 1fr 4fr 1fr;
     grid-template-rows: 1fr 5fr 5fr 1fr;
     grid-template-areas: "header header header"
                         "nav1 main nav2"
                         "nav1 main nav3"
                         "footer footer footer"
+}
+div{
+    border: 2px solid black;
 }
 
 body{
