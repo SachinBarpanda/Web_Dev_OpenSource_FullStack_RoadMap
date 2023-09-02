@@ -1,33 +1,33 @@
 
 
-// let promise = new Promise(function(resolve, reject){
-//     setTimeout(function(){
-//         let data = 'hi dosto ye promise hai'
-//         resolve(data);
-//         // let error = 'oops dikkat aagyi';
-//         // reject(error);
+let promise = new Promise(function(resolve, reject){
+    setTimeout(function(){
+        let data = 'hi dosto ye promise hai'
+        resolve(data);
+        let error = 'oops dikkat aagyi';
+        reject(error);
 
-//     },1000);
-// });
+    },1000);
+});
 
-// // resolve
-// promise.then(function(data){
-//     console.log(data);
-// })
+// resolve
+promise.then(function(data){
+    console.log(data);
+})
 
 
 // reject
-// promise.catch(function(data){
-//     console.log(data);
-// })
+promise.catch(function(data){
+    console.log(data);
+})
 
 
 // Dono
-// promise.then(function(data){
-//     console.log(data);
-// }).catch(function(data){
-//     console.log(data);
-// })
+promise.then(function(data){
+    console.log(data);
+}).catch(function(data){
+    console.log(data);
+})
 
 
 let p1 = new Promise((resolve,reject)=>{
@@ -38,12 +38,12 @@ let p1 = new Promise((resolve,reject)=>{
     },1000);
 });
 
-// p1.then().catch();
-// p1.then(()=>{
-//     console.log('Kaam Hogaya');
-// }).catch(()=>{
-//     console.log('Error aagayo')
-// })
+p1.then().catch();
+p1.then(()=>{
+    console.log('Kaam Hogaya');
+}).catch(()=>{
+    console.log('Error aagayo')
+})
 
 p1.then(()=>{
     new Promise((resolve,reject)=>{

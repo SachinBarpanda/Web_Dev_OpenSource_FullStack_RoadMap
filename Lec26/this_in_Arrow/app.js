@@ -13,17 +13,16 @@
 //     fn : ()=>{
 //         console.log(this);
 //     }
-
 // }
 // obj.fn();
 
-let obj = {
-    num : 30,
-    fn : function(){
-        let calculate = ()=>{
-            console.log(this);
-        }
-        calculate();
-    }
-}
-obj.fn();
+// let obj = {
+//     num : 30,
+//     fn : function(){
+//         calculate = ()=>{
+//             console.log(this);
+//         }
+//         calculate();
+//     }
+// }
+// obj.fn();

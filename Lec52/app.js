@@ -1,3 +1,7 @@
+if(process.env.NODE_ENV !=='production'){
+    require('dotenv').config();
+}
+
 const express = require('express');
 const app = express();
 const path = require('path')
@@ -19,7 +23,8 @@ const authRoutes = require('./routes/auth');
 const cartRoutes = require('./routes/cart');
 
 
-mongoose.connect('mongodb://127.0.0.1:27017/shopping-sam-app')
+const dbURL = process.env.dbURL || ('mongodb://127.0.0.1:27017/shopping-sam-app');
+mongoose.connect(dbURL)
 .then(()=>{console.log("DB connected succesfully")})
 .catch((err)=>{
     console.log("DB Error")

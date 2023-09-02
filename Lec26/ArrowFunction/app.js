@@ -7,7 +7,7 @@ fun1();
 
 
 // arrow function
-let fun = (a,b)=>{
+let fun = (a,b) => {
     console.log(100);
     console.log(a+b);
 }

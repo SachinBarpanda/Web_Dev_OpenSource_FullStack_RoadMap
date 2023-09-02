@@ -1,4 +1,4 @@
-let funkshion = function iphone(){
+let fun = function iphone(){
     console.log("hi iphone");
 }
 // iphone();

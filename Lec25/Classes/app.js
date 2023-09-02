@@ -44,14 +44,16 @@ class Student extends Person{
     }
 }
 
-let student1 = new Student('Ras', 'putin','putin@gmail.com');
+let student1 = new Student('Ras', 'putin','putin@gmail.com',123);
 
 console.log(student1);
 console.log(student1.first);
 console.log(student1.last);
 console.log(student1.email);
+console.log(student1.roll);
 
-// let person2 = new Person();
+
+// let person2 = new Person("sam","vohra","sam@123");
 // console.log(person2);
 // console.log(person2.email);
 // console.log(person2.printName());

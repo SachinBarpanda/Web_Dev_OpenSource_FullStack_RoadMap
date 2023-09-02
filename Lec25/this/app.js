@@ -45,13 +45,14 @@
 // }
 // let obj  = new CreateObj();
 // console.log(obj.x); 
+// console.log(obj);
 
 // 4. call , apply 
 
 // let obj = {
 //     a : 20,
-//     fn : function(a,b,c){
-//         console.log(this,a,b,c);
+//     fn : function(a1,b1,c1){
+//         console.log(this,a1,b1,c1);
 //     }
 // }
 // let obj2 = {
@@ -62,21 +63,23 @@
 //     name : 'samarth'
 // }
 
-// // obj.fn.call(obj2);
-// // obj.fn.call(obj2, 1, 2 ,3);
-// // obj.fn.call(obj, 1, 2, 3);
-// obj.fn.apply(obj,[ 11, 21, 31]);
+// obj.fn.call(obj2);
+// obj.fn.call(obj2, 1, 2 ,3);
+// obj.fn.call(obj, 1, 2, 3);
+// obj.fn.apply(obj,[11, 21, 31]);
 
 // .bind()
-let obj3 = {
-    num : 3,
-    fn : function(){
-        console.log(this);
-    }
-}
+// let obj3 = {
+//     num : 3,
+//     fn : function(){
+//         console.log(this);
+//     }
+// }
+// let obj3l = obj3.fn;
+// obj3l();
 // obj3.fn.bind(obj3);
-let myFUn = obj3.fn.bind(obj3);
-myFUn();
+// let myFUn = obj3.fn.bind(obj3);
+// myFUn();
 
 
 

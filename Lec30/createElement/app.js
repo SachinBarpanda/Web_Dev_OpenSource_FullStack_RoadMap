@@ -17,7 +17,7 @@ foolandevi.innerText = 'foolean devi imagination';
 // arti.append(pappiLaal,foolandevi,'ziddi child : dharamwati');
 let span = document.createElement("span");
 span.innerText = "Span baanaya hai";
-arti.append(pappiLaal);
+// arti.append(pappiLaal);
 pappiLaal.before(span , ' hello1 ')
 // arti.prepend(pappiLaal,foolandevi,'ziddi child : dharamwati');
     

@@ -3,47 +3,47 @@
 <%-include('../partials/flash') %>
     <div class="row">
         <% for(let item of products){ %>
-                    <div class="col-lg-3 col-md-4 gy-3">
-                        <div class="card shadow mx-auto" style="width: 18rem;">
+            <div class="col-lg-3 col-md-4 gy-3">
+                <div class="card shadow mx-auto" style="width: 18rem;">
 
-                            <img class="card-img-top" src="<%=item.img%>" alt="Card image cap">
-                            <span
-                                class="badge rounded-pill bg-light text-secondary w-50 position-absolute translate-middle-y"
-                                style="top:51%;left:5%">
-                                <%=item.avgRating%> &star; | <%=item.reviews.length%> reviews
-                            </span>
-                            <div class="card-body">
-                                <h5 class="card-title medium">
-                                    <%=item.name%>
-                                </h5>
-                                <p class="card-text small">
-                                    <%=item.description%>
-                                </p>
-                                <span class="btn like-btn" product-id="<%=item._id%>">
-                                    
-                                    <%if(currentUser && currentUser.wishList.includes(item._id)){ %>
-                                        <i class="fas fa-heart"></i>
-                                    <%} else {%>
-                                        <i class="far fa-heart"></i>
-                                    <%}%>
-                                </span>
-                                <h6 class="card-title small"><span class="fw-lighter fs-6 text-decoration-line-through">Rs.<%=
-                                            item.price*2 %></span> Rs.<%= item.price %> <span
-                                            class="fw-light fs-6 text-warning">(50%OFF)</span> </h6>
+                    <img class="card-img-top" src="<%=item.img%>" alt="Card image cap">
+                    <span
+                        class="badge rounded-pill bg-light text-secondary w-50 position-absolute translate-middle-y"
+                        style="top:51%;left:5%">
+                        <%=item.avgRating%> &star; | <%=item.reviews.length%> reviews
+                    </span>
+                    <div class="card-body">
+                        <h5 class="card-title medium">
+                            <%=item.name%>
+                        </h5>
+                        <p class="card-text small">
+                            <%=item.description%>
+                        </p>
+                        <span class="btn like-btn" product-id="<%=item._id%>">
+                            
+                            <%if(currentUser && currentUser.wishList.includes(item._id)){ %>
+                                <i class="fas fa-heart"></i>
+                            <%} else {%>
+                                <i class="far fa-heart"></i>
+                            <%}%>
+                        </span>
+                        <h6 class="card-title small"><span class="fw-lighter fs-6 text-decoration-line-through">Rs.<%=
+                                    item.price*2 %></span> Rs.<%= item.price %> <span
+                                    class="fw-light fs-6 text-warning">(50%OFF)</span> </h6>
 
-                                <a href="/products/<%=item._id%>" class="btn btn-sm btn-primary">View</a>
-                                <% if(currentUser && currentUser.role==='seller' ){%>
+                        <a href="/products/<%=item._id%>" class="btn btn-sm btn-primary">View</a>
+                        <% if(currentUser && currentUser.role==='seller' ){%>
 
-                                    <form class="d-inline-block" action="/products/<%=item._id%>?_method=DELETE"
-                                        method="POST">
-                                        <button class="btn btn-sm btn-danger">Delete</button>
-                                    </form>
+                            <form class="d-inline-block" action="/products/<%=item._id%>?_method=DELETE"
+                                method="POST">
+                                <button class="btn btn-sm btn-danger">Delete</button>
+                            </form>
 
-                                    <% } %>
-                            </div>
-                        </div>
+                            <% } %>
                     </div>
-                    <% } %>
+                </div>
+            </div>
+            <% } %>
             </div>
             </div>
             </body>

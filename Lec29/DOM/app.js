@@ -1,7 +1,7 @@
 // console.log(document);
 
 // console.log(document.getElementsByTagName('h1'));
-// let h1Arr = document.getElementsByTagName('h1');
+let h1Arr = document.getElementsByTagName('h1');
 // console.log(h1Arr[0]);
 // console.log(h1Arr[1]);
 
@@ -37,18 +37,18 @@
 // let dom = document.querySelector('.dom');
 // console.log(dom);
 
-let id1 = document.querySelector('#sam');
-console.log(id1);
+// let id1 = document.querySelector('#sam');
+// console.log(id1);
 
 // ---------------QuerySelectorAll-------------
-let h1 = document.querySelectorAll('h1');
-console.log(h1);
+// let h1 = document.querySelectorAll('h1');
+// console.log(h1);
 
-let dom = document.querySelectorAll('.dom');
-console.log(dom);
+// let dom = document.querySelectorAll('.dom');
+// console.log(dom);
 
-let sam = document.querySelectorAll('#sam');
-console.log(sam);
+// let sam = document.querySelectorAll('#sam');
+// console.log(sam);
 
 
 

@@ -12,11 +12,11 @@
 
 
 // -----------inner HTML---------------
-let para3 = document.querySelector('p');
-console.log(para3.innerHTML);
+// let para3 = document.querySelector('p');
+// console.log(para3.innerHTML);
 
-// acting like my setters
-para3.innerHTML = 'hi ab mai purane wala dost nahi raha';
+// // acting like my setters
+// para3.innerHTML = 'hi ab mai purane wala dost nahi raha';
 
 
 

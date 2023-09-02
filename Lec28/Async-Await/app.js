@@ -4,15 +4,15 @@
 
 
 
-// let p1 = new function(){
+let p1 = new function(){
 
-// }
-// console.log(p1);//return empty object
+}
+console.log(p1);//return empty object
 
-// async function some1(){
+async function some1(){
 
-// }
-// console.log(some());//return promise
+}
+console.log(some());//return promise
 
 async function some(){
     await new Promise((resolve,reject)=>{

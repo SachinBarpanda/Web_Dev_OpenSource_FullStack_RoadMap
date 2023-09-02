@@ -14,13 +14,13 @@
 //     return a * a;
 // }
 
-// console.log(squareroot);
+// console.log(squareroot(2));
 
  
-let squareroot = a => a * a;
+// let squareroot = a => a * a;
 
 
-// -----------------
-let ans = squareroot(6);
-console.log(ans);
+// // -----------------
+// let ans = squareroot(6);
+// console.log(ans);
 
